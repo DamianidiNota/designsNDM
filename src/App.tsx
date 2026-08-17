@@ -20,9 +20,9 @@ function App() {
         </div>
         <div>
           <h1>Get started</h1>
-          <p>
+          {/* <p>
             Edit <code>src/App.tsx</code> and save to test <code>HMR</code>
-          </p>
+          </p> */}
         </div>
         <button
           type="button"
@@ -36,7 +36,6 @@ function App() {
       <div className="ticks"></div>
 
     
-      <div className="ticks"></div>
       <section id="spacer"></section>
     </main>
     <Footer/>
