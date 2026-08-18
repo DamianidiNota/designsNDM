@@ -1,0 +1,68 @@
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: bold;
+}
+
+p {
+	font-size: var(--p);
+	line-height: 1.6;
+	margin: 0 0 var(--pspace);
+	font-weight:400;
+	letter-spacing: var(--pspacing);
+
+	a{
+		color:var(--brown2);
+		text-decoration: underline;
+
+		@include on-event(){
+			color: var(--green);
+		}
+	}
+
+}
+
+h1 {
+	font: {
+		size: var(--h1);
+		weight: 200;
+	}
+
+	line-height: 123.529%;
+	margin: 0 0 var(--h1space);
+}
+
+h2 {
+	font: {
+		size: var(--h2);
+		weight: 200;
+	}
+
+	margin: 0 0 var(--h2space);
+	line-height: 131.579%;
+
+	p + & {
+		margin-top: 32px;
+	}
+}
+
+h3 {
+	font: {
+		size: var(--h3);
+		weight: 300;
+	}
+
+	margin: 0 0 var(--h3space);
+	line-height: 117.647%;
+}
+
+h4 {
+	font-size: var(--h4);
+	font-weight: 300;
+	margin: 0 0 var(--h4space);
+	line-height: 117.647%;
+}

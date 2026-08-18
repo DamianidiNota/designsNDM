@@ -1,0 +1,68 @@
+//create media queries
+@mixin responsive($breakpoint) {
+    @if map-has-key($breakpoints, $breakpoint) {
+        @media (max-width: #{map-get($breakpoints, $breakpoint)}) {
+            @content;
+        }
+    }
+
+    @if str-slice($breakpoint, 0, 1) == ">" and map-has-key($breakpoints, str-slice($breakpoint, 2, -1)) {
+        @media (min-width: #{map-get($breakpoints, str-slice($breakpoint, 2, -1))}) {
+            @content;
+        }
+    }
+
+    @if str-slice($breakpoint, 0, 1) == "<" and map-has-key($breakpoints, str-slice($breakpoint, 2, -1)) {
+        @media (max-width: #{map-get($breakpoints, str-slice($breakpoint, 2, -1)) - 1px} ) {
+            @content;
+        }
+    }
+}
+
+
+@mixin scrollbar($behavior: smooth, $background: #fff, $foreground: #061F33) {
+    scroll-behavior: $behavior;
+    overflow: auto;
+    scrollbar-color: $foreground $background;
+    scrollbar-width: thin;
+    -webkit-overflow-scrolling: touch;
+
+    &::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: $foreground;
+        border-radius: 13px;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background: $foreground;
+    }
+
+    &::-webkit-scrollbar-thumb:active {
+        background: $foreground;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: $background;
+    }
+}
+
+
+@mixin on-event($self: false) {
+    @if $self {
+        &,
+        &:hover,
+        &:active {
+            @content;
+        }
+    }
+    @else {
+        &:hover,
+        &:active {
+            @content;
+        }
+    }
+}

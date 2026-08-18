@@ -1,0 +1,47 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+picture {
+    display:block;
+}
+html {
+   
+	// @include scrollbar(smooth,var(--scroll),var(--scrolltrack));
+}
+body {
+    margin: 0;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family:$font;
+    font-size: 14px;
+        background: var(--pink) ;
+   
+}
+
+input[type=submit] {
+    cursor: pointer;
+}
+
+figure{
+    margin: 0;
+	line-height: 1;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.wrapper {
+    max-width: var(--wrapper);
+    width: 100%;
+    margin:0 auto;
+    padding: 0 var(--gridSpace);
+}
+

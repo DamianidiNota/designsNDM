@@ -1,0 +1,43 @@
+.main-nav {  
+   
+    @include responsive('>xlarge') {
+        text-align: center;
+    }
+    &__ul {
+        list-style: none;
+        margin:0 ;
+        padding: 0;
+         display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        @include responsive('>xlarge') {
+           
+            .header--fixed & {
+                justify-content: flex-start;
+            }
+        }
+    }
+    &__li {
+        list-style: none;
+        font-weight: 300;
+        margin-bottom: 15px;
+        line-height: 1.2;
+        
+     
+        @include responsive('>xlarge') {
+            margin:0;
+        } 
+        a{
+            display: inline-block;
+            color:var(--blackvswhite);
+          padding: 8px 8px;
+            @include responsive('>xlarge') {
+                
+            }
+            @include on-event(){
+                color: var(--green3);
+            }
+        }
+    }
+}

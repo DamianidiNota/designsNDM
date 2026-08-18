@@ -1,39 +1,32 @@
-import { useState } from 'react'
-import './App.css'
+
+import './Css/main.css'
 import Header from './components/layout/Header'
 import Footer from './components/layout/Footer'
+import Product from './components/main/Product'
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
     <>
     <Header/>
     <main>
+      <Product title="Monthly Planners" category="monthly"/>
+      <Product title="Daily Planners" category="daily"/>
+      <Product title="Workout" category="workout"/>
       <section id="center">
-        {/* <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
-        </div> */}
+      
         <div>
-          <h1>Get started</h1>
-          {/* <p>
-            Edit <code>src/App.tsx</code> and save to test <code>HMR</code>
-          </p> */}
+         
         </div>
-        <button
+        {/* <button
           type="button"
           className="counter"
           onClick={() => setCount((count) => count + 1)}
         >
           Count is {count}
-        </button>
+        </button> */}
       </section>
 
-      <div className="ticks"></div>
-
-    
-      <section id="spacer"></section>
     </main>
     <Footer/>
     </>

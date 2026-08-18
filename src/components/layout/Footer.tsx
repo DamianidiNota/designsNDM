@@ -5,7 +5,7 @@ function Footer(){
         <>
             <footer className="footer">
                 <div className="wrapper">
-                    designsNDM footer
+                  
                 </div>               
             </footer>
         </>

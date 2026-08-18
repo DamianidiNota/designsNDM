@@ -1,3 +1,5 @@
+import Nav from './Nav'
+
 function Header(){
 
     return(
@@ -5,7 +7,8 @@ function Header(){
         <>
             <header className="header">
                 <div className="wrapper">
-                    designsNDM HEader
+                    
+                    <Nav/>
                 </div>               
             </header>
         </>
