@@ -126,7 +126,6 @@ h4 {
   justify-content: space-between;
 }
 .product__item {
-  width: calc(50% - var(--pgap) / 2);
   position: relative;
   aspect-ratio: 1588/1122;
   margin-bottom: var(--pgap);
@@ -140,6 +139,11 @@ h4 {
 @media (max-width: 1023px) {
   .product__item {
     border-radius: 20px;
+  }
+}
+@media (min-width: 640px) {
+  .product__item {
+    width: calc(50% - var(--pgap) / 2);
   }
 }
 .product__item:hover .product__desc, .product__item:active .product__desc {

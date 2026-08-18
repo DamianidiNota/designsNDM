@@ -12,7 +12,7 @@
         justify-content: space-between;
     }
     &__item {
-        width:calc(50% - var(--pgap) / 2 );
+      
         position:relative;
         aspect-ratio: 1588 / 1122;
         margin-bottom: var(--pgap);
@@ -24,6 +24,10 @@
         } 
          @include responsive('<large') {
             border-radius:20px;
+        } 
+
+         @include responsive('>small') {
+             width:calc(50% - var(--pgap) / 2 );
         } 
         @include on-event(){
             .product__desc {
