@@ -22,7 +22,7 @@ $breakpoints: ('small': 640px, 'medium': 768px, 'large':1024px, 'xlarge': 1280px
 
     //headings
     --h1: #{clamp(22px, 4vw, 30px)};
-    --h2: #{clamp(38px, 4vw, 58px)};
+    --h2: #{clamp(32px, 4vw, 58px)};
     --h3: #{clamp(22px, 4vw, 34px)};
     --h4: #{clamp(16px, 4vw, 22px)};
     --p: #{15px};
