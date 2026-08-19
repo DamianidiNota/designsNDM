@@ -3,6 +3,7 @@ import './Css/main.css'
 import Header from './components/layout/Header'
 import Footer from './components/layout/Footer'
 import Product from './components/main/Product'
+
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -10,14 +11,13 @@ function App() {
     <>
     <Header/>
     <main>
-      <Product title="Monthly Planners" category="monthly"/>
-      <Product title="Daily Planners" category="daily"/>
-      <Product title="Workout" category="workout"/>
+      <Product id="monthly" class="product--horizontal" title="Monthly Planners" category="monthly"/>
+      <Product id="medication" title="Medication tracker" category="pills"/>
+      <Product id="daily" title="Daily Planners" category="daily"/>
+      <Product id="workout" title="Workout" category="workout"/>
+
       <section id="center">
       
-        <div>
-         
-        </div>
         {/* <button
           type="button"
           className="counter"

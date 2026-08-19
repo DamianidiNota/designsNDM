@@ -13,19 +13,20 @@ export const routes: Route[] = [
   },
   {
       id:2,
-    title: "Daily",
-    href: "#Daily",
+    title: "Medication",
+    href: "#medication",
   },
   {
       id:3,
-    title: "workout",
-    href: "#workout",
+    title: "Daily",
+    href: "#daily",
   },
   {
       id:4,
-    title: "pill trackers",
-    href: "#pills",
+    title: "Workout",
+    href: "#workout",
   },
+  
 ];
 
 export const Nav = () => {

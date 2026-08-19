@@ -9,14 +9,14 @@ function Product(props:any){
 
    return(
         <>
-        <section className="product" >
+        <section id={props.id} className="product" >
             <div className="wrapper">
                 <h2>{props.title}</h2>
                 <div className="product__list" >
                     {card.map((product) => {
                         const {id, title, etsyUrl, image } = product;
                         return(
-                            <div className="product__item" key={id}>
+                            <div className={`product__item ${props.class}`} key={id}>
                                 <figure className="product__img">
                                     <img src={image}/>
                                 </figure>

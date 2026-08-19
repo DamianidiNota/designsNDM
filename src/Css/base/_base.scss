@@ -21,6 +21,7 @@ body {
     font-family:$font;
     font-size: 14px;
         background: var(--pink) ;
+        text-align:center;
    
 }
 
@@ -45,3 +46,10 @@ img {
     padding: 0 var(--gridSpace);
 }
 
+section {
+    padding-block: 60px;
+
+    &:nth-child(even) {
+        background:rgba(255,255,255,0.2)
+    }
+}

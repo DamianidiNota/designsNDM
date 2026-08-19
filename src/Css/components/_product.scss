@@ -1,9 +1,10 @@
 .product {
-    margin:40px 0;
     --pgap:8px;
     @include responsive('>xlarge') {
         --pgap:16px;
         } 
+
+    
 
 
     &__list {
@@ -14,10 +15,12 @@
     &__item {
       
         position:relative;
-        aspect-ratio: 1588 / 1122;
+        
         margin-bottom: var(--pgap);
         overflow: hidden;
-       
+        &--horizontal {
+            aspect-ratio: 1588 / 1122;
+        }
 
          @include responsive('>large') {
             border-radius:30px;
@@ -44,6 +47,7 @@
        color:var(--white);
        opacity:0;
        transition: opacity var(--transition) ease;
+       padding: 24px;
     }
 
     &__link {
