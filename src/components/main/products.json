@@ -4,28 +4,36 @@
     "title": "Cherry Theme Monthly planner | Digital dowlnoad pdf A4 - A5",
     "category": "monthly",
     "image": "https://i.etsystatic.com/57159731/r/il/4bef9a/6672615444/il_1588xN.6672615444_hrl8.jpg",
-    "etsyUrl": "https://www.etsy.com/listing/1879757005"
+    "etsyUrl": "https://www.etsy.com/listing/1879757005",
+    "slug": "monthly-planner1",
+    "description": "Organize your month with this printable monthly planner."
   },
   {
     "id": "2",
     "title": "Pink Cherry Strawberry Calendar | Printable Monthly Planner (PDF Download)",
     "category": "monthly",
     "image": "https://i.etsystatic.com/57159731/r/il/4355d8/6912321873/il_1588xN.6912321873_35aq.jpg",
-    "etsyUrl": "https://www.etsy.com/listing/4305872998"
+    "etsyUrl": "https://www.etsy.com/listing/4305872998",
+    "slug": "monthly-planner2",
+    "description": "Organize your month with this printable monthly planner."
   },
   {
     "id": "3",
     "title": "Strawberry Theme Monthly planner | Digital dowlnoad pdf A4",
     "category": "monthly",
     "image": "https://i.etsystatic.com/57159731/r/il/3ecd03/8052451380/il_1588xN.8052451380_3lzo.jpg",
-    "etsyUrl": "https://www.etsy.com/listing/4510067997"
+    "etsyUrl": "https://www.etsy.com/listing/4510067997",
+    "slug": "monthly-planner3",
+    "description": "Organize your month with this printable monthly planner."
   },
   {
     "id": "4",
     "title": "Cherry Theme Monthly planner | Digital dowlnoad pdf A4",
     "category": "monthly",
     "image": "https://i.etsystatic.com/57159731/r/il/7a908c/7092679518/il_1588xN.7092679518_swj1.jpg",
-    "etsyUrl": "https://www.etsy.com/listing/4348716818/"
+    "etsyUrl": "https://www.etsy.com/listing/4348716818/",
+    "slug": "monthly-planner4",
+    "description": "Organize your month with this printable monthly planner."
   }
   ,
   {
@@ -33,7 +41,9 @@
     "title": "Hearts Theme Monthly planner | Digital dowlnoad pdf A4",
     "category": "monthly",
     "image": "https://i.etsystatic.com/57159731/r/il/6ce0ed/7232553846/il_1588xN.7232553846_gtd4.jpg",
-    "etsyUrl": "https://www.etsy.com/listing/4376431792"
+    "etsyUrl": "https://www.etsy.com/listing/4376431792",
+    "slug": "monthly-planner5",
+    "description": "Organize your month with this printable monthly planner."
   }
   ,
   {
@@ -41,7 +51,9 @@
     "title": "Cherry Theme Daily planner | Digital dowlnoad pdf A4 - A5",
     "category": "daily",
     "image": "https://i.etsystatic.com/57159731/r/il/6020d2/6688520387/il_1588xN.6688520387_r3jd.jpg",
-    "etsyUrl": "https://www.etsy.com/listing/1873472881"
+    "etsyUrl": "https://www.etsy.com/listing/1873472881",
+    "slug": "monthly-planner6",
+    "description": "Organize your month with this printable monthly planner."
   }
   ,
   {
@@ -49,7 +61,9 @@
     "title": "Cherry Daily Planner Printable | Pink Organizer with Mood Tracker (PDF Download)",
     "category": "daily",
     "image": "https://i.etsystatic.com/57159731/r/il/b4af1d/7243644348/il_1588xN.7243644348_11ej.jpg",
-    "etsyUrl": "https://www.etsy.com/listing/4303891600"
+    "etsyUrl": "https://www.etsy.com/listing/4303891600",
+    "slug": "daily-planner1",
+    "description": "Organize your month with this printable monthly planner."
   }
   ,
   {
@@ -57,28 +71,36 @@
     "title": "Daily Planner with Exercise & Wellness Tracking – Your All-in-One Productivity Tool",
     "category": "daily",
     "image": "https://i.etsystatic.com/57159731/r/il/74e01c/7243632430/il_1588xN.7243632430_tsi4.jpg",
-    "etsyUrl": "https://www.etsy.com/listing/1850301366"
+    "etsyUrl": "https://www.etsy.com/listing/1850301366",
+    "slug": "daily-planner2",
+    "description": "Organize your month with this printable monthly planner."
   },
   {
     "id": "9",
     "title": "4-Week Medication Tracker Cherries theme. Pill & Vitamin Log (Instant Download PDF A4 Size)",
     "category": "pills",
     "image": "https://i.etsystatic.com/57159731/r/il/82d943/7398765193/il_1588xN.7398765193_53t3.jpg",
-    "etsyUrl": "https://www.etsy.com/listing/4397563151"
+    "etsyUrl": "https://www.etsy.com/listing/4397563151",
+    "slug": "pills-planner1",
+    "description": "Organize your month with this printable monthly planner."
   },
   {
     "id": "10",
     "title": "4-Week Pill Tracker Printable: Medication & Vitamin Log (A4 PDF, Spanish Version)",
     "category": "pills",
     "image": "https://i.etsystatic.com/57159731/r/il/60fe69/7191356457/il_1588xN.7191356457_j24o.jpg",
-    "etsyUrl": "https://www.etsy.com/listing/4358605049"
+    "etsyUrl": "https://www.etsy.com/listing/4358605049",
+    "slug": "pills-planner2",
+    "description": "Organize your month with this printable monthly planner."
   },
   {
     "id": "11",
     "title": "Monthly Workout Planner: Exercise Log, Gym Schedule (Digital Download)",
     "category": "workout",
     "image": "https://i.etsystatic.com/57159731/r/il/3b6eb6/7188039321/il_1588xN.7188039321_dkmp.jpg",
-    "etsyUrl": "https://www.etsy.com/listing/4358025176"
+    "etsyUrl": "https://www.etsy.com/listing/4358025176",
+    "slug": "workout-planner1",
+    "description": "Organize your month with this printable monthly planner."
   }
   ,
   {
@@ -86,21 +108,27 @@
     "title": "Monthly Workout Planner: 4-Week Fitness Tracker (Digital Download PDF)",
     "category": "workout",
     "image": "https://i.etsystatic.com/57159731/r/il/2decc0/6875443688/il_1588xN.6875443688_qu3v.jpg",
-    "etsyUrl": "https://www.etsy.com/listing/4308070564"
+    "etsyUrl": "https://www.etsy.com/listing/4308070564",
+    "slug": "workout-planner2",
+    "description": "Organize your month with this printable monthly planner."
   },
   {
     "id": "13",
     "title": "Minimalist Daily Planner: Schedule, Goals, Wellness Tracker (Digital Download)",
     "category": "daily",
     "image": "https://i.etsystatic.com/57159731/r/il/55c986/6681000762/il_1588xN.6681000762_b8kf.jpg",
-    "etsyUrl": "https://www.etsy.com/listing/1881416861"
+    "etsyUrl": "https://www.etsy.com/listing/1881416861",
+    "slug": "daily-planner3",
+    "description": "Organize your month with this printable monthly planner."
   },
   {
     "id": "14",
     "title": "Weekly Workout Planner: Fitness Tracker, Gym Log (PDF Download)",
     "category": "workout",
     "image": "https://i.etsystatic.com/57159731/r/il/9b53e1/6855687126/il_1588xN.6855687126_9nzf.jpg",
-    "etsyUrl": "https://www.etsy.com/listing/4304153451"
+    "etsyUrl": "https://www.etsy.com/listing/4304153451",
+    "slug": "workout-planner3",
+    "description": "Organize your month with this printable monthly planner."
   }
   ,
   {
@@ -108,28 +136,36 @@
     "title": "2-Week Workout Planner: Time/Reps Tracker, Gym Schedule (PDF)",
     "category": "workout",
     "image": "https://i.etsystatic.com/57159731/r/il/fed38d/6863706940/il_1588xN.6863706940_awnq.jpg",
-    "etsyUrl": "https://www.etsy.com/listing/4305674716"
+    "etsyUrl": "https://www.etsy.com/listing/4305674716",
+    "slug": "workout-planner4",
+    "description": "Organize your month with this printable monthly planner."
   },
    {
     "id": "16",
     "title": "Monthly steps/notes and water intake digital planner | Digital dowlnoad pdf",
     "category": "monthly",
     "image": "./assets/products/productid16/index.jpg",
-    "pdfUrl": "./assets/products/productid16/planner.pdf"
+    "pdfUrl": "./assets/products/productid16/planner.pdf",
+    "slug": "monthly-planner5",
+    "description": "Organize your month with this printable monthly planner."
   },
    {
     "id": "17",
     "title": "Monthly steps/notes and water intake digital planner | Digital dowlnoad pdf",
     "category": "monthly",
     "image": "./assets/products/productid17/index.jpg",
-    "pdfUrl": "./assets/products/productid17/planner.pdf"
+    "pdfUrl": "./assets/products/productid17/planner.pdf",
+    "slug": "monthly-planner6",
+    "description": "Organize your month with this printable monthly planner."
   } ,
    {
     "id": "18",
     "title": "Weekly planner with notes, water intake, workout | Digital dowlnoad pdf",
     "category": "weekly",
     "image": "./assets/products/productid18/planner.png",
-    "pdfUrl": "./assets/products/productid18/planner.pdf"
+    "pdfUrl": "./assets/products/productid18/planner.pdf",
+    "slug": "weekly-planner5",
+    "description": "Organize your month with this printable monthly planner."
   }
    ,
    {
@@ -137,13 +173,17 @@
     "title": "Panda mobile wallpaper | Lavender Digital Download",
     "category": "wallpapers",
     "image": "./assets/products/productid19/preview.jpg",
-    "pdfUrl": "./assets/products/productid19/wallpaper.jpg"
+    "pdfUrl": "./assets/products/productid19/wallpaper.jpg",
+    "slug": "wallpapers1",
+    "description": "Organize your month with this printable monthly planner."
   },
    {
     "id": "20",
     "title": "Cute Panda Holding a Strawberry – Mobile Wallpaper | Instant Download",
     "category": "wallpapers",
     "image": "./assets/products/productid20/preview.jpg",
-    "pdfUrl": "./assets/products/productid20/wallpaper.jpg"
+    "pdfUrl": "./assets/products/productid20/wallpaper.jpg",
+    "slug": "wallpapers2",
+    "description": "Organize your month with this printable monthly planner."
   }
 ]

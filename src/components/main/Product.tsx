@@ -1,5 +1,6 @@
 
 import products from "./products.json";
+import { Link } from 'react-router-dom'
 
 function Product(props:any){
 
@@ -17,9 +18,15 @@ function Product(props:any){
                         const {id, title, etsyUrl, pdfUrl, image } = product;
                         return(
                             <div className={`product__item ${props.class}`} key={id}>
-                                <figure className="product__img">
+                                <Link to={`/product/${product.slug}`} className="product__details">
+                                    <figure className="product__img">
+                                        <img src={image} alt={title} />
+                                    </figure>
+
+                                </Link>
+                                {/* <figure className="product__img">
                                     <img src={image}/>
-                                </figure>
+                                </figure> */}
                                 <div className="product__desc">
 
                                    <div className="product__descInner">

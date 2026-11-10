@@ -53,11 +53,11 @@
     &__link {
         display: inline-block;
         margin-top:16px;
-        &:after {
-            content:"";
-            position:absolute;
-            inset:0;
-            z-index: 2;
-        }
+        // &:after {
+        //     content:"";
+        //     position:absolute;
+        //     inset:0;
+        //     z-index: 2;
+        // }
     }
 }

@@ -277,12 +277,6 @@ button:not(:disabled), button:not(.button--disabled) {
   display: inline-block;
   margin-top: 16px;
 }
-.product__link:after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: 2;
-}
 
 @media (min-width: 1280px) {
   .main-nav {
