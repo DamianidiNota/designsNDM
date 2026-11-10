@@ -109,5 +109,19 @@
     "category": "workout",
     "image": "https://i.etsystatic.com/57159731/r/il/fed38d/6863706940/il_1588xN.6863706940_awnq.jpg",
     "etsyUrl": "https://www.etsy.com/listing/4305674716"
+  },
+   {
+    "id": "16",
+    "title": "Monthly steps/notes and water intake digital planner | Digital dowlnoad pdf",
+    "category": "monthly",
+    "image": "./assets/products/productid16/index.jpg",
+    "pdfUrl": "./assets/products/productid16/planner.pdf"
+  },
+   {
+    "id": "17",
+    "title": "Monthly steps/notes and water intake digital planner | Digital dowlnoad pdf",
+    "category": "monthly",
+    "image": "./assets/products/productid17/index.jpg",
+    "pdfUrl": "./assets/products/productid17/planner.pdf"
   }
 ]

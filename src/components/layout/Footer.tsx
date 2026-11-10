@@ -5,8 +5,10 @@ function Footer(){
         <>
             <footer className="footer">
                 <div className="wrapper">
-                  
-                </div>               
+                    <div className="logo">
+                      <img src="assets/logo.png" alt="logo"/>
+                    </div>               
+                </div>
             </footer>
         </>
     )

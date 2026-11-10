@@ -2,7 +2,7 @@ $font:   Verdana, sans-serif !default;
 
 $baseFontSize: 16px;
 
-
+$colornBackTransition: color 350ms ease, background-color 350ms ease;
 
 $breakpoints: ('small': 640px, 'medium': 768px, 'large':1024px, 'xlarge': 1280px, 'wrapperEdge': 1360px, 'xxlarge': 1600px) !default;
 
@@ -17,6 +17,8 @@ $breakpoints: ('small': 640px, 'medium': 768px, 'large':1024px, 'xlarge': 1280px
     --white:#fff;
     --pink:#fae3ef;
     --pink2:#f5dae8;
+     --pink3:#fa4b66;
+      --pink4:#cf3a51;
 
 
 
@@ -24,10 +26,20 @@ $breakpoints: ('small': 640px, 'medium': 768px, 'large':1024px, 'xlarge': 1280px
     --h1: #{clamp(22px, 4vw, 30px)};
     --h2: #{clamp(32px, 4vw, 58px)};
     --h3: #{clamp(22px, 4vw, 34px)};
-    --h4: #{clamp(16px, 4vw, 22px)};
+    --h4: #{clamp(14px, 4vw, 18px)};
     --p: #{15px};
 
     --h2space: 24px;
 
+
+    //buttons
+    --buttonbg: var(--pink3);
+    --buttoncolor:var(--white);
+    --buttonbghover: var(--pink4);  
+    --buttonfont: 14px;
+    --buttonminheight: 36px;
+    --buttonminwidth: 50px;
+    --buttonspace: 12px 24px;
+    --buttoncolorhover: var(--white);
 
 }

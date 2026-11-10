@@ -5,12 +5,22 @@
   --white:#fff;
   --pink:#fae3ef;
   --pink2:#f5dae8;
+  --pink3:#fa4b66;
+  --pink4:#cf3a51;
   --h1: clamp(22px, 4vw, 30px);
   --h2: clamp(32px, 4vw, 58px);
   --h3: clamp(22px, 4vw, 34px);
-  --h4: clamp(16px, 4vw, 22px);
+  --h4: clamp(14px, 4vw, 18px);
   --p: 15px;
   --h2space: 24px;
+  --buttonbg: var(--pink3);
+  --buttoncolor:var(--white);
+  --buttonbghover: var(--pink4);
+  --buttonfont: 14px;
+  --buttonminheight: 36px;
+  --buttonminwidth: 50px;
+  --buttonspace: 12px 24px;
+  --buttoncolorhover: var(--white);
 }
 
 *,
@@ -63,6 +73,15 @@ section {
 }
 section:nth-child(even) {
   background: rgba(255, 255, 255, 0.2);
+}
+
+.logo {
+  max-width: 150px;
+  margin: 0 auto;
+}
+
+footer {
+  padding-block: 60px;
 }
 
 h1,
@@ -120,6 +139,81 @@ h4 {
   line-height: 117.647%;
 }
 
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  border: none;
+  margin: 0;
+}
+button:not(:disabled), button:not(.button--disabled) {
+  cursor: pointer;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--buttonbg);
+  border: none;
+  border-radius: 50px;
+  color: var(--buttoncolor);
+  cursor: pointer;
+  font-family: Verdana, sans-serif;
+  font-size: var(--buttonfont);
+  font-weight: bold;
+  line-height: 1.3;
+  padding: var(--buttonspace);
+  text-align: center;
+  text-decoration: none;
+  transition: background 200ms ease-out, border 200ms ease-out, color 200ms ease-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  min-height: var(--buttonminheight);
+  min-width: var(--buttonminwidth);
+}
+@media (hover: hover) and (pointer: fine) {
+  .button:hover {
+    background-color: var(--buttonbghover);
+    color: var(--buttoncolorhover);
+  }
+}
+.button--style2 {
+  --buttonbg: #be4bfa;
+  --buttonbghover:#a13bd7;
+}
+.button--sml {
+  --buttonminwidth: 70px;
+  --buttonspace: 8px 12px;
+  --buttonfont: 13px;
+  --buttonminheight: 30px;
+}
+.button--border {
+  --buttonbg: #fff;
+  border: solid 1px var(--blackvswhite);
+  --buttonbghover: var(--buttonborderhover);
+}
+
+.buttonWrp {
+  margin-bottom: 20px;
+}
+
+.iconbutton {
+  --iconbuttonsize: 28px;
+  --iconbg:#000;
+  border-radius: 50%;
+  width: var(--iconbuttonsize);
+  height: var(--iconbuttonsize);
+  display: grid;
+  place-items: center;
+  font-size: 16px;
+  color: var(--blackvswhite);
+  transition: color 350ms ease, background-color 350ms ease;
+}
+.iconbutton:hover, .iconbutton:active {
+  color: var(--brown);
+}
+
 .product {
   --pgap:8px;
 }
@@ -131,47 +225,51 @@ h4 {
 .product__list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  gap: var(--pgap);
 }
 .product__item {
   position: relative;
-  margin-bottom: var(--pgap);
   overflow: hidden;
 }
-.product__item--horizontal {
-  aspect-ratio: 1588/1122;
-}
 @media (min-width: 1024px) {
-  .product__item {
-    border-radius: 30px;
+  .product__item--horizontal .product__img {
+    aspect-ratio: 1588/1122;
   }
 }
 @media (max-width: 1023px) {
-  .product__item {
-    border-radius: 20px;
+  .product__item--horizontal .product__img {
+    aspect-ratio: 1588/1122;
   }
 }
-@media (min-width: 640px) {
+@media (min-width: 1280px) {
+  .product__item {
+    width: calc(33.33% - var(--pgap));
+  }
+}
+@media (max-width: 1279px) and (min-width: 640px) {
   .product__item {
     width: calc(50% - var(--pgap) / 2);
   }
 }
-.product__item:hover .product__desc, .product__item:active .product__desc {
-  opacity: 1;
+.product__img {
+  overflow: hidden;
+}
+@media (min-width: 1024px) {
+  .product__img {
+    border-radius: 30px;
+  }
+}
+@media (max-width: 1023px) {
+  .product__img {
+    border-radius: 20px;
+  }
 }
 .product__desc {
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.6);
-  display: grid;
-  place-items: center;
-  color: var(--white);
-  opacity: 0;
-  transition: opacity var(--transition) ease;
-  padding: 24px;
+  color: var(--black);
+  padding: 16px 0;
+  text-align: left;
 }
 .product__link {
-  color: var(--white);
   display: inline-block;
   margin-top: 16px;
 }

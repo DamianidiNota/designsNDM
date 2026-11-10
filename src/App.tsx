@@ -16,16 +16,7 @@ function App() {
       <Product id="daily" title="Daily Planners" category="daily"/>
       <Product id="workout" title="Workout" category="workout"/>
 
-      <section id="center">
       
-        {/* <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button> */}
-      </section>
 
     </main>
     <Footer/>

@@ -14,7 +14,7 @@ function Product(props:any){
                 <h2>{props.title}</h2>
                 <div className="product__list" >
                     {card.map((product) => {
-                        const {id, title, etsyUrl, image } = product;
+                        const {id, title, etsyUrl, pdfUrl, image } = product;
                         return(
                             <div className={`product__item ${props.class}`} key={id}>
                                 <figure className="product__img">
@@ -25,7 +25,17 @@ function Product(props:any){
                                    <div className="product__descInner">
 
                                     <h4>{title}</h4> 
-                                     <a className="product__link" href={etsyUrl} target="_blank">view on etsy</a>
+
+                                    {etsyUrl && (
+
+                                    
+                                     <a className="product__link button" href={etsyUrl} target="_blank">View on Etsy</a>
+                                    ) }
+
+                                     {pdfUrl && (
+
+                                     <a className="product__link button button--style2" href={pdfUrl} target="_blank" download>Free Download</a>
+                                      ) }
                                      
                                  </div>     
 
