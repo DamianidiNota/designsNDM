@@ -6,7 +6,7 @@
     "image": "https://i.etsystatic.com/57159731/r/il/4bef9a/6672615444/il_1588xN.6672615444_hrl8.jpg",
     "etsyUrl": "https://www.etsy.com/listing/1879757005",
     "slug": "product1",
-    "description": "Organize your month with this printable monthly planner."
+     "description": "./descriptions/product1.md"
   },
   {
     "id": "2",
@@ -15,7 +15,7 @@
     "image": "https://i.etsystatic.com/57159731/r/il/4355d8/6912321873/il_1588xN.6912321873_35aq.jpg",
     "etsyUrl": "https://www.etsy.com/listing/4305872998",
     "slug": "product2",
-    "description": "Organize your month with this printable monthly planner."
+   "description": "./descriptions/product2.md"
   },
   {
     "id": "3",
@@ -24,7 +24,7 @@
     "image": "https://i.etsystatic.com/57159731/r/il/3ecd03/8052451380/il_1588xN.8052451380_3lzo.jpg",
     "etsyUrl": "https://www.etsy.com/listing/4510067997",
     "slug": "product3",
-    "description": "Organize your month with this printable monthly planner."
+     "description": "./descriptions/product3.md"
   },
   {
     "id": "4",
@@ -33,7 +33,7 @@
     "image": "https://i.etsystatic.com/57159731/r/il/7a908c/7092679518/il_1588xN.7092679518_swj1.jpg",
     "etsyUrl": "https://www.etsy.com/listing/4348716818/",
     "slug": "product4",
-    "description": "Organize your month with this printable monthly planner."
+    "description": "./descriptions/product4.md"
   }
   ,
   {
@@ -43,7 +43,7 @@
     "image": "https://i.etsystatic.com/57159731/r/il/6ce0ed/7232553846/il_1588xN.7232553846_gtd4.jpg",
     "etsyUrl": "https://www.etsy.com/listing/4376431792",
     "slug": "product5",
-    "description": "Organize your month with this printable monthly planner."
+    "description": "./descriptions/product5.md"
   }
   ,
   {
@@ -53,7 +53,7 @@
     "image": "https://i.etsystatic.com/57159731/r/il/6020d2/6688520387/il_1588xN.6688520387_r3jd.jpg",
     "etsyUrl": "https://www.etsy.com/listing/1873472881",
     "slug": "product6",
-    "description": "Organize your month with this printable monthly planner."
+    "description": "./descriptions/product6.md"
   }
   ,
   {
@@ -63,7 +63,7 @@
     "image": "https://i.etsystatic.com/57159731/r/il/b4af1d/7243644348/il_1588xN.7243644348_11ej.jpg",
     "etsyUrl": "https://www.etsy.com/listing/4303891600",
     "slug": "product7",
-    "description": "Organize your month with this printable monthly planner."
+    "description": "./descriptions/product7.md"
   }
   ,
   {
@@ -73,7 +73,7 @@
     "image": "https://i.etsystatic.com/57159731/r/il/74e01c/7243632430/il_1588xN.7243632430_tsi4.jpg",
     "etsyUrl": "https://www.etsy.com/listing/1850301366",
     "slug": "product8",
-    "description": "Organize your month with this printable monthly planner."
+    "description": "./descriptions/product8.md"
   },
   {
     "id": "9",
@@ -82,7 +82,7 @@
     "image": "https://i.etsystatic.com/57159731/r/il/82d943/7398765193/il_1588xN.7398765193_53t3.jpg",
     "etsyUrl": "https://www.etsy.com/listing/4397563151",
     "slug": "product9",
-    "description": "Organize your month with this printable monthly planner."
+    "description": "./descriptions/product9.md"
   },
   {
     "id": "10",
@@ -91,7 +91,7 @@
     "image": "https://i.etsystatic.com/57159731/r/il/60fe69/7191356457/il_1588xN.7191356457_j24o.jpg",
     "etsyUrl": "https://www.etsy.com/listing/4358605049",
     "slug": "product10",
-    "description": "Organize your month with this printable monthly planner."
+    "description": "./descriptions/product10.md"
   },
   {
     "id": "11",
@@ -100,7 +100,7 @@
     "image": "https://i.etsystatic.com/57159731/r/il/3b6eb6/7188039321/il_1588xN.7188039321_dkmp.jpg",
     "etsyUrl": "https://www.etsy.com/listing/4358025176",
     "slug": "product11",
-    "description": "Organize your month with this printable monthly planner."
+    "description": "./descriptions/product11.md"
   }
   ,
   {
@@ -110,7 +110,7 @@
     "image": "https://i.etsystatic.com/57159731/r/il/2decc0/6875443688/il_1588xN.6875443688_qu3v.jpg",
     "etsyUrl": "https://www.etsy.com/listing/4308070564",
     "slug": "product12",
-    "description": "Organize your month with this printable monthly planner."
+    "description": "./descriptions/product12.md"
   },
   {
     "id": "13",
@@ -119,7 +119,7 @@
     "image": "https://i.etsystatic.com/57159731/r/il/55c986/6681000762/il_1588xN.6681000762_b8kf.jpg",
     "etsyUrl": "https://www.etsy.com/listing/1881416861",
     "slug": "product13",
-    "description": "Organize your month with this printable monthly planner."
+    "description": "./descriptions/product13.md"
   },
   {
     "id": "14",
@@ -128,7 +128,7 @@
     "image": "https://i.etsystatic.com/57159731/r/il/9b53e1/6855687126/il_1588xN.6855687126_9nzf.jpg",
     "etsyUrl": "https://www.etsy.com/listing/4304153451",
     "slug": "product14",
-    "description": "Organize your month with this printable monthly planner."
+    "description": "./descriptions/product14.md"
   }
   ,
   {
@@ -138,7 +138,7 @@
     "image": "https://i.etsystatic.com/57159731/r/il/fed38d/6863706940/il_1588xN.6863706940_awnq.jpg",
     "etsyUrl": "https://www.etsy.com/listing/4305674716",
     "slug": "product15",
-    "description": "Organize your month with this printable monthly planner."
+    "description": "./descriptions/product15.md"
   },
    {
     "id": "16",
@@ -147,7 +147,7 @@
     "image": "./assets/products/productid16/index.jpg",
     "pdfUrl": "./assets/products/productid16/planner.pdf",
     "slug": "product16",
-    "description": "Organize your month with this printable monthly planner."
+    "description": "./descriptions/product16.md"
   },
    {
     "id": "17",
@@ -156,7 +156,7 @@
     "image": "./assets/products/productid17/index.jpg",
     "pdfUrl": "./assets/products/productid17/planner.pdf",
     "slug": "product17",
-    "description": "Organize your month with this printable monthly planner."
+    "description": "./descriptions/product17.md"
   } ,
    {
     "id": "18",
@@ -165,7 +165,7 @@
     "image": "./assets/products/productid18/planner.png",
     "pdfUrl": "./assets/products/productid18/planner.pdf",
     "slug": "product18",
-    "description": "Organize your month with this printable monthly planner."
+    "description": "./descriptions/product18.md"
   }
    ,
    {
@@ -175,7 +175,7 @@
     "image": "./assets/products/productid19/preview.jpg",
     "pdfUrl": "./assets/products/productid19/wallpaper.jpg",
     "slug": "product19",
-    "description": "Organize your month with this printable monthly planner."
+    "description": "./descriptions/product19.md"
   },
    {
     "id": "20",
@@ -184,6 +184,6 @@
     "image": "./assets/products/productid20/preview.jpg",
     "pdfUrl": "./assets/products/productid20/wallpaper.jpg",
     "slug": "product20",
-    "description": "Organize your month with this printable monthly planner."
+    "description": "./descriptions/product20.md"
   }
 ]

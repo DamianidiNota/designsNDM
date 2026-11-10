@@ -70,5 +70,52 @@
         padding: 8px;
         border-radius: 0 0 8px 0;
         font-size: 12px;
+
+        &--etsy {
+            background-color:#f1641e;
+        }
+
+        svg {
+               width: 28px;
+    height: 12px;
+            fill:#fff;
+        }
+
+        &--free{
+             color: #fff;
+			background-color:#a13bd7;
+        }
+    }
+}
+
+.product-details {
+    text-align: left;
+    &__content {
+        display: flex;
+        flex-wrap:wrap;
+        gap: 16px;
+        @include responsive('>large') {
+            gap: 32px;
+        } 
+    }
+
+    &__assets {
+        width:100%;
+        @include responsive('>large') {
+            width:calc(50% - 16px);
+        } 
+    }
+    &__desc {
+        width:100%;
+        text-align: left;
+        @include responsive('>large') {
+            width:calc(50% - 16px);
+        } 
+    }
+    &__back {
+        margin-bottom: 16px;
+        display: inline-block;
+        padding: 8px 16px;
+        color:var(--black);
     }
 }

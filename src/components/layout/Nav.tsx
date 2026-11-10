@@ -40,9 +40,24 @@ export const routes: Route[] = [
 ];
 
 export const Nav = () => {
-  function closemenu(): void {
-    document.body.classList.remove("menu-opened");
+ 
+
+function gotosection(
+  e: React.MouseEvent<HTMLAnchorElement>,
+  href: string
+): void {
+  e.preventDefault();
+
+  const section = document.querySelector(href);
+
+  if (section) {
+    section.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
   }
+}
+
 
   return (
     <div className="header__nav">
@@ -52,59 +67,14 @@ export const Nav = () => {
             const {id, title, href} = route;
 
             return(
-                <li className="main-nav__li" key={id}>
-                    <a href={href}  onClick={closemenu}>
+                <li className="main-nav__li" key={id} >
+                    <a href={href}   onClick={(e) => gotosection(e, href)}>
                         {title}
                     </a>
                 </li>
             )
         })}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        {/* {routes.map((route) => {
-            const {href, title, id} = route;
-            return (
-                <li className="main-nav__li" key={id}>
-                     <a href={href} onClick={closemenu}>
-                    {title}
-                    </a>
-                </li>
-            )
-        })}
-
-
-          {routes.map((route) => {
-            const { href, title } = route;
-
-            return (
-              <li className="main-nav__li" key={title}>
-                <a href={href} onClick={closemenu}>
-                  {title}
-                </a>
-              </li>
-            );
-          })} */}
         </ul>
       </nav>
     </div>

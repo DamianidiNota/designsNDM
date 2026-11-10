@@ -9,9 +9,10 @@
   --pink4:#cf3a51;
   --h1: clamp(22px, 4vw, 30px);
   --h2: clamp(32px, 4vw, 58px);
-  --h3: clamp(22px, 4vw, 34px);
+  --h3: clamp(16px, 4vw, 20px);
   --h4: clamp(14px, 4vw, 18px);
   --p: 15px;
+  --h1space: 24px;
   --h2space: 24px;
   --buttonbg: var(--pink3);
   --buttoncolor:var(--white);
@@ -286,6 +287,55 @@ button:not(:disabled), button:not(.button--disabled) {
   padding: 8px;
   border-radius: 0 0 8px 0;
   font-size: 12px;
+}
+.product__flag--etsy {
+  background-color: #f1641e;
+}
+.product__flag svg {
+  width: 28px;
+  height: 12px;
+  fill: #fff;
+}
+.product__flag--free {
+  color: #fff;
+  background-color: #a13bd7;
+}
+
+.product-details {
+  text-align: left;
+}
+.product-details__content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+@media (min-width: 1024px) {
+  .product-details__content {
+    gap: 32px;
+  }
+}
+.product-details__assets {
+  width: 100%;
+}
+@media (min-width: 1024px) {
+  .product-details__assets {
+    width: calc(50% - 16px);
+  }
+}
+.product-details__desc {
+  width: 100%;
+  text-align: left;
+}
+@media (min-width: 1024px) {
+  .product-details__desc {
+    width: calc(50% - 16px);
+  }
+}
+.product-details__back {
+  margin-bottom: 16px;
+  display: inline-block;
+  padding: 8px 16px;
+  color: var(--black);
 }
 
 @media (min-width: 1280px) {
