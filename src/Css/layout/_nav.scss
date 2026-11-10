@@ -11,6 +11,7 @@
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
+            gap:2px;
         @include responsive('>xlarge') {
            
             .header--fixed & {
@@ -27,9 +28,18 @@
         a{
             display: inline-block;
             color:var(--blackvswhite);
-          padding: 8px 8px;
+          padding: 8px 10px;
+          background:var(--pink);
+          border-radius: 20px;
+
+             @include responsive('>medium') {
+                padding: 8px 16px;
+          
+            }
+            
             @include responsive('>xlarge') {
-                
+                padding: 8px 24px;
+          
             }
             @include on-event(){
                 color: var(--green3);

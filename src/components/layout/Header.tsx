@@ -6,10 +6,8 @@ function Header(){
 
         <>
             <header className="header">
-                <div className="wrapper">
                     
-                    <Nav/>
-                </div>               
+                    <Nav/> 
             </header>
         </>
     )

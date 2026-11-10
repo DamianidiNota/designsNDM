@@ -123,5 +123,27 @@
     "category": "monthly",
     "image": "./assets/products/productid17/index.jpg",
     "pdfUrl": "./assets/products/productid17/planner.pdf"
+  } ,
+   {
+    "id": "18",
+    "title": "Weekly planner with notes, water intake, workout | Digital dowlnoad pdf",
+    "category": "weekly",
+    "image": "./assets/products/productid18/planner.png",
+    "pdfUrl": "./assets/products/productid18/planner.pdf"
+  }
+   ,
+   {
+    "id": "19",
+    "title": "Panda mobile wallpaper | Lavender Digital Download",
+    "category": "wallpapers",
+    "image": "./assets/products/productid19/preview.jpg",
+    "pdfUrl": "./assets/products/productid19/wallpaper.jpg"
+  },
+   {
+    "id": "20",
+    "title": "Cute Panda Holding a Strawberry – Mobile Wallpaper | Instant Download",
+    "category": "wallpapers",
+    "image": "./assets/products/productid20/preview.jpg",
+    "pdfUrl": "./assets/products/productid20/wallpaper.jpg"
   }
 ]

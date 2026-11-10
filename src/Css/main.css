@@ -69,7 +69,7 @@ img {
 }
 
 section {
-  padding-block: 60px;
+  padding: 100px 0 60px;
 }
 section:nth-child(even) {
   background: rgba(255, 255, 255, 0.2);
@@ -82,6 +82,10 @@ section:nth-child(even) {
 
 footer {
   padding-block: 60px;
+}
+
+main {
+  padding-top: 20px;
 }
 
 h1,
@@ -293,6 +297,7 @@ button:not(:disabled), button:not(.button--disabled) {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  gap: 2px;
 }
 @media (min-width: 1280px) {
   .header--fixed .main-nav__ul {
@@ -307,7 +312,19 @@ button:not(:disabled), button:not(.button--disabled) {
 .main-nav__li a {
   display: inline-block;
   color: var(--blackvswhite);
-  padding: 8px 8px;
+  padding: 8px 10px;
+  background: var(--pink);
+  border-radius: 20px;
+}
+@media (min-width: 768px) {
+  .main-nav__li a {
+    padding: 8px 16px;
+  }
+}
+@media (min-width: 1280px) {
+  .main-nav__li a {
+    padding: 8px 24px;
+  }
 }
 .main-nav__li a:hover, .main-nav__li a:active {
   color: var(--green3);
@@ -315,7 +332,7 @@ button:not(:disabled), button:not(.button--disabled) {
 
 .header {
   position: fixed;
-  padding: 8px 0;
+  padding: 14px 0;
   top: 0;
   background: var(--pink2);
   width: 100%;

@@ -18,13 +18,23 @@ export const routes: Route[] = [
   },
   {
       id:3,
+    title: "Weekly",
+    href: "#weekly",
+  },
+   {
+      id:4,
     title: "Daily",
     href: "#daily",
   },
   {
-      id:4,
+      id:5,
     title: "Workout",
     href: "#workout",
+  },
+  {
+      id:6,
+    title: "Wallpapers",
+    href: "#wallpapers",
   },
   
 ];
