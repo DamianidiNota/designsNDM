@@ -51,13 +51,24 @@
     }
 
     &__link {
-        display: inline-block;
-        margin-top:16px;
+        position:absolute;
+         inset:0;z-index: 2;
+
         // &:after {
         //     content:"";
         //     position:absolute;
         //     inset:0;
         //     z-index: 2;
         // }
+    }
+
+    &__flag {
+        position:absolute;
+        left:0;
+        top:0;
+        background:var(--white);
+        padding: 8px;
+        border-radius: 0 0 8px 0;
+        font-size: 12px;
     }
 }

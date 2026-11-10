@@ -18,12 +18,17 @@ function Product(props:any){
                         const {id, title, etsyUrl, pdfUrl, image } = product;
                         return(
                             <div className={`product__item ${props.class}`} key={id}>
-                                <Link to={`/product/${product.slug}`} className="product__details">
+                               <Link className="product__link" to={`/product/${product.slug}`}></Link>
                                     <figure className="product__img">
+                                         {etsyUrl && (
+                                        <span className="product__flag product__flag--etsy">Etsy</span>
+                                        ) }
+                                         {pdfUrl && (
+                                        <span className="product__flag product__flag--free">Free Download</span>
+                                        ) }
                                         <img src={image} alt={title} />
                                     </figure>
 
-                                </Link>
                                 {/* <figure className="product__img">
                                     <img src={image}/>
                                 </figure> */}
@@ -33,7 +38,7 @@ function Product(props:any){
 
                                     <h4>{title}</h4> 
 
-                                    {etsyUrl && (
+                                    {/* {etsyUrl && (
 
                                     
                                      <a className="product__link button" href={etsyUrl} target="_blank">View on Etsy</a>
@@ -42,7 +47,7 @@ function Product(props:any){
                                      {pdfUrl && (
 
                                      <a className="product__link button button--style2" href={pdfUrl} target="_blank" download>Free Download</a>
-                                      ) }
+                                      ) } */}
                                      
                                  </div>     
 

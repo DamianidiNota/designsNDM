@@ -28,13 +28,13 @@ function ProductDetails() {
                 <p>{product.description}</p>
 
                 {product.etsyUrl && (
-                    <a href={product.etsyUrl} target="_blank" rel="noopener noreferrer">
+                    <a href={product.etsyUrl}  className="button" target="_blank" rel="noopener noreferrer">
                         View on Etsy
                     </a>
                 )}
 
                 {product.pdfUrl && (
-                    <a href={product.pdfUrl} download>
+                    <a href={product.pdfUrl} className="button button--style2" download>
                         Free Download
                     </a>
                 )}
