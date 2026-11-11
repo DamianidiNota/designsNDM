@@ -7,12 +7,22 @@ function Footer(){
         <>
             <footer className="footer">
                 <div className="wrapper">
-                    <div className="logo">
+                     <div className="logo">
                          <Link to="/" >
                             <img src="assets/logo.png" alt="logo"/>
                          </Link>
                      
-                    </div>               
+                    </div>         
+                     <div className="footer__links">
+                        <div>
+                             copyright © 2024 DesignsNDM. All rights reserved.
+                        </div>
+                       
+                        <Link to="/privacy-policy">
+                            Privacy Policy
+                        </Link>
+                    </div>
+                         
                 </div>
             </footer>
         </>

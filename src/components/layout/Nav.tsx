@@ -52,8 +52,7 @@ export const Nav = () => {
             <li className="main-nav__li" key={id}>
               <a
                 href={`/${href}`}
-                onClick={(e) => gotosection(e, href)}
-              >
+                onClick={(e) => gotosection(e, href)}>
                 {title}
               </a>
             </li>

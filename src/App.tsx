@@ -7,12 +7,11 @@ import Header from './components/layout/Header'
 import Footer from './components/layout/Footer'
 import Product from './components/main/Product'
 import ProductDetails from './components/main/ProductDetails'
+import PrivacyPolicy from './components/main/PrivacyPolicy'
 
+import CookieBanner from "./components/layout/CookieBanner";
 
 function Home() {
-
-
-
 
   return (
     <>
@@ -38,8 +37,21 @@ function App() {
   }, [location.pathname]);
 
   return (
+    <>
+     <CookieBanner />
     <Routes>
       <Route path="/" element={<Home />} />
+       <Route
+          path="/privacy-policy"
+          element={
+             <>
+            <main>
+             <PrivacyPolicy />
+            </main>
+            <Footer />
+          </>
+        }
+        />
       <Route
         path="/product/:slug"
         element={
@@ -52,6 +64,7 @@ function App() {
         }
       />
     </Routes>
+    </>
   )
 }
 
