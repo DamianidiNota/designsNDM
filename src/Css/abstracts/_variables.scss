@@ -1,5 +1,7 @@
 $font:   Verdana, sans-serif !default;
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
 $baseFontSize: 16px;
 
 $colornBackTransition: color 350ms ease, background-color 350ms ease;
@@ -15,6 +17,7 @@ $breakpoints: ('small': 640px, 'medium': 768px, 'large':1024px, 'xlarge': 1280px
 
     //colors
     --white:#fff;
+    --black:#000;
     --pink:#fae3ef;
     --pink2:#f5dae8;
      --pink3:#fa4b66;

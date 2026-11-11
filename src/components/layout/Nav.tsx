@@ -42,7 +42,12 @@ export const Nav = () => {
       });
 
     }
+     setTimeout(() => {
+            document.body.classList.remove('menu-opened');
+        }, 500);
   }
+
+
 
   return (
     <div className="header__nav">

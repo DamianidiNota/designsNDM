@@ -45,6 +45,7 @@ function App() {
           path="/privacy-policy"
           element={
              <>
+             <Header />
             <main>
              <PrivacyPolicy />
             </main>
@@ -56,6 +57,7 @@ function App() {
         path="/product/:slug"
         element={
           <>
+          <Header />
             <main>
               <ProductDetails />
             </main>
