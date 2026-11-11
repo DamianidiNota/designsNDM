@@ -31,7 +31,7 @@ function ProductDetails() {
         <section className="product-details">
             <div className="wrapper">
 
-                <Link to="/"  className="product-details__back">Back to products</Link>
+            <Link to="/"  className="product-details__back">Back to products</Link>
             <div className="product-details__content">
                 <div className="product-details__assets">
                     <figure>

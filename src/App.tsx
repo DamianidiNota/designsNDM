@@ -1,13 +1,19 @@
 
 import './Css/main.css'
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, useLocation } from 'react-router-dom'
+import {useEffect} from 'react'
 
 import Header from './components/layout/Header'
 import Footer from './components/layout/Footer'
 import Product from './components/main/Product'
 import ProductDetails from './components/main/ProductDetails'
 
+
 function Home() {
+
+
+
+
   return (
     <>
       <Header />
@@ -17,7 +23,7 @@ function Home() {
         <Product id="weekly" title="Weekly Planners" category="weekly"/>
         <Product id="daily" title="Daily Planners" category="daily"/>
         <Product id="workout" title="Workout" category="workout"/>
-        <Product id="wallpapers" title="Wallpapers" category="wallpapers"/>
+        <Product id="wallpapers" class="product__item--sml" title="Wallpapers" category="wallpapers"/>
       </main>
       <Footer />
     </>
@@ -25,6 +31,12 @@ function Home() {
 }
 
 function App() {
+ const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
+
   return (
     <Routes>
       <Route path="/" element={<Home />} />
@@ -32,7 +44,6 @@ function App() {
         path="/product/:slug"
         element={
           <>
-            <Header />
             <main>
               <ProductDetails />
             </main>

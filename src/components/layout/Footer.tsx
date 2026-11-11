@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Footer(){
 
     return(
@@ -6,7 +8,10 @@ function Footer(){
             <footer className="footer">
                 <div className="wrapper">
                     <div className="logo">
-                      <img src="assets/logo.png" alt="logo"/>
+                         <Link to="/" >
+                            <img src="assets/logo.png" alt="logo"/>
+                         </Link>
+                     
                     </div>               
                 </div>
             </footer>

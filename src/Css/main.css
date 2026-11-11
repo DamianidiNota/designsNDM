@@ -13,6 +13,7 @@
   --h4: clamp(14px, 4vw, 18px);
   --p: 15px;
   --h1space: 24px;
+  --pspace:16px;
   --h2space: 24px;
   --buttonbg: var(--pink3);
   --buttoncolor:var(--white);
@@ -236,6 +237,9 @@ button:not(:disabled), button:not(.button--disabled) {
   position: relative;
   overflow: hidden;
 }
+.product__item--sml {
+  max-width: 280px;
+}
 @media (min-width: 1024px) {
   .product__item--horizontal .product__img {
     aspect-ratio: 1588/1122;
@@ -326,6 +330,9 @@ button:not(:disabled), button:not(.button--disabled) {
   width: 100%;
   text-align: left;
 }
+.product-details__desc .button {
+  margin-top: 24px;
+}
 @media (min-width: 1024px) {
   .product-details__desc {
     width: calc(50% - 16px);
@@ -334,8 +341,12 @@ button:not(:disabled), button:not(.button--disabled) {
 .product-details__back {
   margin-bottom: 16px;
   display: inline-block;
-  padding: 8px 16px;
+  padding: 8px 16px 8px 0;
   color: var(--black);
+}
+.product-details__back:before {
+  content: "<";
+  margin-right: 8px;
 }
 
 @media (min-width: 1280px) {

@@ -2,14 +2,10 @@
 </p>
 <p>
 ✨ Features:
-<p>✔️ Undated Monthly Layout – Use it anytime!</p>
-<p>
-✔️ Soft Pink Background with Cherry Accents – Fun and charming design</p>
-<p>
-✔️ Instant Download – Print at home or use digitally</p>
-<p>
-✔️ High-Resolution PDF – Clean and easy to read</p>
-<p>
+<br/>✔️ Undated Monthly Layout – Use it anytime!<br/>
+✔️ Soft Pink Background with Cherry Accents – Fun and charming design<br/>
+✔️ Instant Download – Print at home or use digitally<br/>
+✔️ High-Resolution PDF – Clean and easy to read<br/>
 ✔️ Perfect for Home, Office, or School Use
 </p>
 <p>
