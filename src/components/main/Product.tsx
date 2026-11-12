@@ -12,12 +12,17 @@ function Product(props:any){
         <>
         <section id={props.id} className="product" >
             <div className="wrapper">
+                {props.ishome && (
                 <h2>{props.title}</h2>
-                <div className="product__list" >
+                ) }
+                {!props.ishome && (
+                <h1>{props.title}</h1>
+                ) }
+                <div className={`product__list ${props.class}`} >
                     {card.map((product) => {
                         const {id, title, etsyUrl, pdfUrl, image } = product;
                         return(
-                            <div className={`product__item ${props.class}`} key={id}>
+                            <div className={`product__item `} key={id}>
                                <Link className="product__link" to={`/product/${product.slug}`}></Link>
                                     <figure className="product__img">
                                          {etsyUrl && (

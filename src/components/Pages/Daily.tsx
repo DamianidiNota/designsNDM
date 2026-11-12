@@ -7,7 +7,7 @@ function Daily(){
 
    return(
         <>
-        <Product id="daily" title="Daily Planners" category="daily"/>
+        <Product id="daily"  class="product--horizontal" title="Daily Planners" category="daily"/>
         </>
     )
 }

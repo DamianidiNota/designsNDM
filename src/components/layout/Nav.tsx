@@ -1,5 +1,4 @@
 
-import { useLocation } from "react-router-dom";
 
 interface Route {
   id: number;
@@ -17,35 +16,6 @@ export const routes: Route[] = [
 ];
 
 export const Nav = () => {
-  const location = useLocation();
-
-  const isHomePage = location.pathname === "/";
-
-  function gotosection(
-    e: React.MouseEvent<HTMLAnchorElement>,
-    href: string
-  ): void {
-    e.preventDefault();
-
-
-    if (!isHomePage) {
-      window.location.href = `/`;
-      return;
-    }
-
-     const section = document.querySelector(href);
-
-    if (section) {
-      section.scrollIntoView({
-        behavior: "smooth",
-        block: "start",
-      });
-
-    }
-     setTimeout(() => {
-            document.body.classList.remove('menu-opened');
-        }, 500);
-  }
 
 
 
@@ -56,8 +26,7 @@ export const Nav = () => {
           {routes.map(({ id, title, href }) => (
             <li className="main-nav__li" key={id}>
               <a
-                href={`/${href}`}
-                onClick={(e) => gotosection(e, href)}>
+                href={`/${href}`}>
                 {title}
               </a>
             </li>

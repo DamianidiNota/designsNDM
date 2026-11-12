@@ -14,7 +14,7 @@ Give your phone a sweet and adorable makeover with this cute panda wallpaper! Fe
 ✨ Why You’ll Love It:<br/>
 Brings a warm, cozy, and cute vibe to your phone<br/>
 Perfect for strawberry lovers, panda fans, and kawaii enthusiasts<br/>
-Instant download – get your wallpaper immediately after purchase
+Instant download
 
 </p>
 <p>

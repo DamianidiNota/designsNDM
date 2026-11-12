@@ -1,4 +1,4 @@
-import { useParams, Link } from 'react-router-dom'
+import { useParams,  useNavigate } from 'react-router-dom'
 import products from './products.json'
 import ReactMarkdown from 'react-markdown'
 import rehypeRaw from "rehype-raw";
@@ -13,7 +13,7 @@ const descriptions = import.meta.glob(
 )
 
 function ProductDetails() {
-
+     const navigate = useNavigate()
     const { slug } = useParams()
 
     const product = products.find(
@@ -31,7 +31,7 @@ function ProductDetails() {
         <section className="product-details">
             <div className="wrapper">
 
-            <Link to="/"  className="product-details__back">Back to products</Link>
+             <button className="product-details__back" onClick={() => navigate(-1)}> Back</button>
             <div className="product-details__content">
                 <div className="product-details__assets">
                     <figure>
